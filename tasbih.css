@@ -1,0 +1,155 @@
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 50px;
+}
+#div-one{
+   
+    padding: 20px;
+    box-shadow: 2px 4px gray, -2px -2px rgb(53, 53, 72);
+    background-color: gray;
+
+}
+#div-two{
+  
+    padding: 20px;
+    box-shadow: 2px 4px gray, -2px -2px rgb(85, 85, 173);
+    background-color: gray;
+
+}
+#div-three{
+  
+    padding: 20px;
+    box-shadow: 2px 4px gray, -2px -2px rgb(250, 121, 230);
+    background-color: gray;
+
+
+}
+
+
+#digital{
+  margin-top: 20px;
+    color: black;
+    text-align: center;
+    font-family: fira code;
+    text-shadow: 2px 2px red;
+}
+
+#one-increment{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#one-decrement{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+#two-increment{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+
+#two-decrement{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+#tre-increment{
+    background-color: darkblue;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   
+}
+
+#tre-decrement{
+    background-color: red;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+#reset{
+    background-color: rgb(255, 8, 0);
+   font-weight: bold;
+    color: aliceblue;
+    padding: 10px;
+   border-radius: 5px;
+   font-size: 20px;
+   border: none;
+}
+#last-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h5{
+ font-size: 1.5rem;
+ font-weight: bold;
+ font-family: fira code;
+ color: rgb(0, 255, 64);
+ text-shadow: 2px 2px red;
+}
+
+#zero-one{
+    font-size: 2.5rem;
+    color: lime;
+}
+#zero-two{
+    font-size: 2.5rem;
+    color: lime;
+
+}
+#zero-tre{
+    font-size: 2.5rem;
+    color: lime;
+
+}
+
+/* Media */
+@media screen and (max-width: 600px) {
+    .container{
+        display: grid;
+        gap: 30px;
+    }
+
+    #div-one{
+        width: 100%;
+    }
+    #div-two{
+        width: 100%;
+    }
+    #div-three{
+        width: 100%;
+    }
+    #reset{
+        width: 50%;
+        margin: 0 auto;
+    }
+}
